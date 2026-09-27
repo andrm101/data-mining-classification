@@ -6,6 +6,15 @@ Classification experiments (KNN, SVM, decision trees, and a hyperparameter-tuned
 
 `winequality-red.csv` and `winequality-white.csv` — Vinho Verde wine samples from Cortez et al. (2009). The two are concatenated with a binary `type` indicator column and modeled jointly as a single multiclass quality-prediction problem (stratified 80/20 train/test split, seed=42).
 
+📖 **[Full results table (incl. macro-F1) and evaluation methodology → project Wiki](https://github.com/andrm101/data-mining-classification/wiki)**
+
+## Results at a glance
+
+<p align="center">
+  <img src="Plots/plot_05_confusion_matrix_Tuned_Random_Forest.png" width="48%" alt="Tuned Random Forest confusion matrix" />
+  <img src="Plots/plot_01_feature_importance_decision_tree.png" width="48%" alt="Decision tree feature importance" />
+</p>
+
 ## Architecture
 
 ```mermaid
